@@ -1,0 +1,62 @@
+.box{
+    height: 245px;
+    width: 255px;
+    background-color: white;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: 160px 0px;
+}
+
+.mainBox{
+    background-color: var(--Dark-blue);
+    margin-top: 45px;
+    border-radius: 15px;
+    padding: 1.2rem;
+    width: 100%;
+    height: 201px;
+}
+
+.mainBox:hover{
+    background-color:hsl(236, 35%, 30%);
+    cursor: pointer;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.3rem;
+}
+
+.title{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.threeDots{
+    vertical-align: middle;
+    font-size:1.2rem;
+    color:hsl(236, 100%, 87%);
+}
+
+.time{
+    margin-top: 1.7rem;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.msg{
+    font-size: 1rem;
+    color:hsl(236, 100%, 87%);
+}
+
+
+
+/* .contentBox{
+    background-color: var(--Dark-blue);
+    width: 100%;
+    height: 200px;
+    margin-top: 45px;
+} */
